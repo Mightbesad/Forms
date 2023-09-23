@@ -1,0 +1,74 @@
+select {
+  width: 25%;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(128, 128, 128, 0.473);
+}
+
+button[type=submit] {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 40%;
+  padding: 7px;
+  margin-top: 20px;
+  margin-left: 27%;
+  
+  
+}
+button[type=submit]:hover {
+  background-color: #45a049;
+
+}
+label {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+}
+input[type=text], input[type=password], select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+input[type=checkbox] {
+margin-top: 3px;
+
+}
+
+  
+.logo { 
+text-align: center;
+margin-bottom: 20px;
+margin-top: 50px;
+
+}
+.logo img {
+  max-width: 200px;
+  height: auto;
+  
+}
+
+p {
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+#country {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif
+}
+.country {
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+.tcs {
+  font-family: cursive;
+
+}
+ 
